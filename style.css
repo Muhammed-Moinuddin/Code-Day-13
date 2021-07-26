@@ -1,0 +1,44 @@
+/* unvisited link */
+a:link{
+  color: deeppink;
+  text-decoration: none;
+}
+/*visited link*/
+a:visited{
+  color: darkgreen;
+}
+/*mouse over link*/
+a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+/*selected link*/
+a:active{
+  color: blue;
+}
+input{
+  padding: 6px 12px 6px 12px;
+  border: 1px solid blue;
+  color: white;
+}
+input.submit{
+  background-color: blue;
+}
+input.submit:hover{
+  background-color: yellow;
+}
+input.submit:active{
+  background-color: blue;
+}
+input.text {
+  color: #cccccc;}
+input.text:focus {
+  color: #1adf34;}
+h1[class ^= 'd']{
+ color: brown;
+}
+/*
+a:hover MUST come after a:link and a:visited
+a:active MUST come after a:hover
+The :focus selector is allowed on elements that accept keyboard events or other user inputs.
+*/
